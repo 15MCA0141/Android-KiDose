@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:fillViewport="false">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.newpc.qrcode.DataActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText14"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="QR Code"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText15"
+        android:layout_below="@+id/editText14"
+        android:layout_centerHorizontal="true"
+        android:hint="child"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText16"
+        android:layout_below="@+id/editText15"
+        android:layout_centerHorizontal="true"
+        android:hint="BCG"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText17"
+        android:layout_below="@+id/editText16"
+        android:layout_centerHorizontal="true"
+        android:hint="hepB"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText18"
+        android:layout_below="@+id/editText17"
+        android:layout_centerHorizontal="true"
+        android:hint="opv0"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText19"
+        android:layout_below="@+id/editText18"
+        android:layout_centerHorizontal="true"
+        android:hint="penta1"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText20"
+        android:layout_below="@+id/editText19"
+        android:layout_centerHorizontal="true"
+        android:hint="penta2"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText21"
+        android:layout_below="@+id/editText20"
+        android:layout_centerHorizontal="true"
+        android:hint="penta3"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText22"
+        android:layout_below="@+id/editText21"
+        android:layout_centerHorizontal="true"
+        android:hint="opv-1"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText23"
+        android:layout_below="@+id/editText22"
+        android:layout_centerHorizontal="true"
+        android:hint="opv-2"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText24"
+        android:layout_below="@+id/editText23"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="opv-3"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText25"
+        android:layout_below="@id/editText24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="ipv1"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText26"
+        android:layout_below="@+id/editText25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="ipv2"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText27"
+        android:layout_below="@id/editText26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="opv booster"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText28"
+        android:layout_below="@+id/editText27"
+        android:layout_centerHorizontal="true"
+        android:hint="dpt booster-1"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText29"
+        android:layout_below="@+id/editText28"
+        android:layout_centerHorizontal="true"
+        android:hint="dpt booster-2"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText30"
+        android:layout_below="@+id/editText29"
+        android:layout_centerHorizontal="true"
+        android:hint="meas-1"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText31"
+        android:layout_below="@+id/editText30"
+        android:layout_centerHorizontal="true"
+        android:hint="meas-2"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText32"
+        android:layout_below="@+id/editText31"
+        android:layout_centerHorizontal="true"
+        android:hint="next"
+        android:inputType="date" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editText32"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btnSubmit"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="40dip" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Picture"
+            android:id="@+id/btnUpload"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="40dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="OR"
+            android:id="@+id/textView45"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btnUpload"
+            android:layout_toStartOf="@+id/btnUpload" />
+    </RelativeLayout>
+
+</RelativeLayout>
+</ScrollView>

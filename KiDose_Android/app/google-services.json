@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "57692528139",
+    "firebase_url": "https://kidose-f4433.firebaseio.com",
+    "project_id": "kidose-f4433",
+    "storage_bucket": "kidose-f4433.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57692528139:android:50a5732dd179d42f",
+        "android_client_info": {
+          "package_name": "com.example.newpc.qrcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57692528139-7to6mpobgo8thupnb0faheserqs8aup5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newpc.qrcode",
+            "certificate_hash": "c4fcb4142db25998ea32503bfafe9a2c1ad53994"
+          }
+        },
+        {
+          "client_id": "57692528139-foo53v14f1sfjnfa3fleeaffiqm6jj65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAovKZYxWCM4Twstnat0SAY0YbKfi-ekQ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57692528139-foo53v14f1sfjnfa3fleeaffiqm6jj65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

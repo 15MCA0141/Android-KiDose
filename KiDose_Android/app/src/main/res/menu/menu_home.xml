@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/anmProfile"
+        android:orderInCategory="100"
+        android:title="@string/anmprofile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/language"
+        android:orderInCategory="200"
+        android:title="@string/language"
+        app:showAsAction="never">
+    <menu>
+        <item
+            android:id="@+id/english"
+            android:orderInCategory="225"
+            android:title="@string/english"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/hindi"
+            android:orderInCategory="250"
+            android:title="@string/hindi"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/marathi"
+            android:orderInCategory="275"
+            android:title="@string/marathi"
+            app:showAsAction="never"/>
+    </menu>
+
+    </item>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="300"
+        android:title="@string/about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="400"
+        android:title="@string/contacts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="500"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+</menu>

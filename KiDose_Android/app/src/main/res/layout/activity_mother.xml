@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/spinnerM"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/dirty_white" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerListMothers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinnerM" />
+
+</RelativeLayout>

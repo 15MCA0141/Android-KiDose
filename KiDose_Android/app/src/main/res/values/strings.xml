@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Kidose</string>
+    <string name="phc_prompt">Choose a PHC</string>
+    <string-array name="phc_arrays">
+        <item>Satpur</item>
+        <item>Tapovan</item>
+    </string-array>
+
+    <string name="gender_prompt">Choose a Gender</string>
+    <string-array name="gender_arrays">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="area_prompt">Select Area</string>
+    <string-array name="area_arrays">
+        <item>Kamlawade</item>
+        <item>Bajrangnagar</item>
+        <item>Bhangar Market</item>
+        <item>Sanjeevnagar</item>
+        <item>Chunchale</item>
+        <item>Keval Park</item>
+        <item>Ramkrishnanagar</item>
+        <item>Navnathnagar</item>
+        <item>Gulmohar Colony</item>
+        <item>Murarinagar</item>
+        <item>Mahada</item>
+        <item>Jadhav Sankul</item>
+        <item>Virat Sankul</item>
+        <item>Bhor Township</item>
+    </string-array>
+
+    <string name="vac1_prompt">Choose a Vaccine</string>
+    <string-array name="vacs">
+        <item>Vial Unavailability</item>
+        <item>Fever/illness</item>
+        <item>Weakness/Underweight</item>
+        <item>Allergy</item>
+        <item>Date Exceeded</item>
+        <item>Mother absent for session</item>
+        <item>Migrated</item>
+    </string-array>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- Strings
+String keywords of whole
+-->
+    <string name="mother">Mother</string>
+    <string name="mothername">Mother Name*</string>
+    <string name="father">Father</string>
+    <string name="fathername">Father Name*</string>
+    <string name="dob">Birth Date*</string>
+    <string name="child">Child Name*</string>
+    <string name="aadhar">Aadhar ID</string>
+    <string name="login">LOGIN</string>
+    <string name="submit">SUBMIT</string>
+    <string name="register">REGISTER</string>
+    <string name="select">Select</string>
+    <string name="registration">Registration</string>
+    <string name="gender">Gender</string>
+    <string name="motherchild">Mother Name : Child Name</string>
+    <string name="childregistration">Child Registration</string>
+    <string name="motherregistration">Mother Registration</string>
+    <string name="update">UPDATE</string>
+    <string name="scan">SCAN</string>
+    <string name="mobile">Mobile No.*</string>
+    <string name="newuser">New User?</string>
+    <string name="newmother">New Mother?</string>
+    <string name="anmlogin">ANM LOGIN</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="anm">ANM</string>
+    <string name="vaccination">Vaccination</string>
+    <string name="duelist">Due List</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="bankacnt">Bank Account No.</string>
+    <string name="bankname">Bank Name</string>
+    <string name="ifsc">IFSC Code</string>
+    <string name="phc">PHC</string>
+    <string name="areas">Areas</string>
+    <string name="anmprofile">ANM Profile</string>
+    <string name="registeredsuccessfully">Registered Successfully</string>
+    <string name="nointernet">No internet connection!</string>
+    <string name="nousername">Username empty!</string>
+    <string name="nopassword">Password empty!</string>
+    <string name="age">Age</string>
+    <string name="addchild">ADD CHILD</string>
+    <string name="qr">QR Code</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="marathi">Marathi</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="contacts">Contacts</string>
+    <string name="help">Help</string>
+    <string name="alert">Alert</string>
+    <string name="missed">Missed doses</string>
+    <string name="duevac">Due Vaccines</string>
+    <string name="hepB">HepB-0</string>
+    <string name="opv0">OPV-0</string>
+    <string name="bcg">BCG</string>
+    <string name="penta1">Penta-1</string>
+    <string name="penta2">Penta-2</string>
+    <string name="penta3">Penta-3</string>
+    <string name="opv1">OPV-1</string>
+    <string name="opv2">OPV-2</string>
+    <string name="opv3">OPV-3</string>
+    <string name="ipv1">IPV-1</string>
+    <string name="ipv2">IPV-2</string>
+    <string name="measles1">Measles-1</string>
+    <string name="measles2">Measles-2</string>
+    <string name="opvbooster">OPV Booster</string>
+    <string name="dptbooster1">DPT Booster-1</string>
+    <string name="dptbooster2">DPT Booster-2</string>
+    <string name="menu_prompt">Menu</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

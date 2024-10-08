@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dip"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="4dip">
+
+        <RelativeLayout
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/tvMother"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="10dip"
+                android:text="Mother Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#a20808"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtFather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvMother"
+                android:layout_gravity="left|top"
+                android:padding="10dip"
+                android:text="Father Name :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvFather"
+                android:layout_gravity="left|top"
+                android:padding="10dip"
+                android:text="Mobile No. :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtAadhar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtMobile"
+                android:layout_gravity="left|top"
+                android:padding="10dip"
+                android:text="Aadhar No. :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtChild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtAadhar"
+                android:layout_gravity="left|top"
+                android:padding="10dip"
+                android:text="No. of Child :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tvFather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/txtFather"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right|top"
+                android:padding="10dip"
+                android:text="Father Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvFather"
+                android:layout_below="@+id/tvFather"
+                android:layout_gravity="top|right"
+                android:padding="10dip"
+                android:text="Mobile No"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvAadhar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvMobile"
+                android:layout_alignStart="@+id/tvMobile"
+                android:layout_below="@+id/txtMobile"
+                android:layout_gravity="right|top"
+                android:padding="10dip"
+                android:text="Aadhar No"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvChild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvAadhar"
+                android:layout_alignStart="@+id/tvAadhar"
+                android:layout_below="@+id/tvAadhar"
+                android:layout_gravity="right|top"
+                android:padding="10dip"
+                android:text="No. of Child"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

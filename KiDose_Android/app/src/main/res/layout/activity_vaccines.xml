@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:fillViewport="false">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:visibility="visible"
+    android:background="#2b2a32">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff">
+
+        <Spinner
+            android:layout_width="204dp"
+            android:layout_height="30dp"
+            android:id="@+id/spinner"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="left|top" />
+
+        <Button
+            android:layout_width="163dp"
+            android:layout_height="30dp"
+            android:text="@string/addchild"
+            android:id="@+id/btnAdd"
+            android:textColor="#ffffff"
+            android:background="#992436"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right|top" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayout8"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="15dp"
+        android:background="#2b2a32"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/child"
+            android:id="@+id/textView14"
+            android:layout_weight="0.06"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_below="@+id/btnAdd"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dob"
+            android:id="@+id/textView16"
+            android:layout_weight="0.06"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvDOB"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/age"
+            android:id="@+id/textView22"
+            android:layout_weight="0.10"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_below="@+id/tvAge"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDOB"
+            android:layout_weight="0.06"
+            android:background="#ffffff"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right|center_vertical" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAges"
+            android:layout_weight="0.06"
+            android:background="#ffffff"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right|bottom" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvName"
+            android:layout_weight="0.06"
+            android:background="#ffffff"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/frameLayout2"
+            android:layout_alignRight="@+id/spinner7"
+            android:layout_alignEnd="@+id/spinner7"
+            android:layout_gravity="right|top" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAge"
+        android:layout_weight="0.41"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/alert"
+        android:id="@+id/textView70"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/frameLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvAlert"
+        android:background="#ffffff"
+        android:textColor="#7b0000"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/duevac"
+        android:id="@+id/textView40"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#ffffff"
+        android:padding="5dip">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hepB"
+                android:id="@+id/cb1"
+                android:checked="false"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner1"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opv0"
+                android:id="@+id/cb2"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bcg"
+                android:id="@+id/cb3"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner3"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/penta1"
+                android:id="@+id/cb4"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner4"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opv1"
+                android:id="@+id/cb5"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner5"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ipv1"
+                android:id="@+id/cb6"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner6"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/penta2"
+                android:id="@+id/cb7"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner7"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opv2"
+                android:id="@+id/cb8"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner8"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/penta3"
+                android:id="@+id/cb9"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner9"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opv3"
+                android:id="@+id/cb10"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner10"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ipv2"
+                android:id="@+id/cb11"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner11"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/measles1"
+                android:id="@+id/cb12"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner12"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/measles2"
+                android:id="@+id/cb13"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner13"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opvbooster"
+                android:id="@+id/cb14"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner14"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dptbooster1"
+                android:id="@+id/cb15"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner15"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dptbooster2"
+                android:id="@+id/cb16"
+                android:visibility="visible"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner16"
+                android:layout_column="70"
+                android:entries="@array/vacs"
+                android:visibility="visible" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:id="@+id/btnUpd"
+        android:textColor="#ffffff"
+        android:background="#992436"
+        android:textStyle="bold"
+        android:textSize="18dip"
+        android:layout_below="@+id/frameLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dip" />
+</LinearLayout>
+</ScrollView>
